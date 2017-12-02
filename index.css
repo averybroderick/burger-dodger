@@ -1,0 +1,99 @@
+#dodger {
+  background-color: white;
+  height: 20px;
+  position: absolute;
+  width: 40px;
+}
+
+#game {
+  background-color: #111;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 400px;
+}
+
+#counterbox {
+  position: relative;
+  background-color: #111;
+  color: white;
+  height: 40px;
+  width: 40px;
+  float: right;
+  font-family: 'PressStart2PRegular';
+  font-weight: normal;
+  font-style: normal;
+  top: 10px;
+}
+
+h1 {
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'PressStart2PRegular';
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+button {
+  font-family: 'PressStart2PRegular';
+  font-size: 20px;
+  background-color: white;
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+}
+
+#start {
+  color: white;
+  font-size: 2rem;
+  position: relative;
+  text-decoration: none;
+  top: 4rem;
+  font-family: 'PressStart2PRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+#gameover {
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  text-decoration: none;
+  top: 2rem;
+  font-family: 'PressStart2PRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.burger {
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.burger:before {
+  content: "";
+  border-bottom: 8px solid limegreen;
+  background-color: red;
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+
+.burger:after {
+  content: "";
+  border-top: 6px solid brown;
+  bottom: 5px;
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
